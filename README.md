@@ -8,7 +8,7 @@ REACT library extends Google Volley library (Android) https://github.com/google/
 
 When transferring data between app components, REACT overcomes bandwidth limitations of underlying Android IPC and unnecessary copying of data by storing the transferred intra-app data in an application-layer heap automatically at runtime, and transferring only references to those memory blocks (then, automatically retrieving data in corresponding memory blocks in the app-layer heap on delivery at the receiver). The user can also manually store data in the app-layer heap (then communicate the references to other in-app components) and, manually retrieve, amend data and delete memory blocks, emulating operations of OS-level heap implementations.
 
-Proof-of-concepts demonstrated at Mobile World Congress 2018, 2019, 2020 (cancelled due to COVID-19).
+Proof-of-concepts with REACT enabled Apps were demonstrated at Mobile World Congress 2018, 2019, 2020 (cancelled due to COVID-19).
 
 ## How To
 TBA
